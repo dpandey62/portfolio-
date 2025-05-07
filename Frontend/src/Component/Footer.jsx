@@ -25,7 +25,8 @@ function Footer() {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/sendmessage",
+        //"http://localhost:4000/api/sendmessage",
+        "https://portfolio-1-ckp8.onrender.com",
         formdata
       );
       if (response.data && response.data.message) {
