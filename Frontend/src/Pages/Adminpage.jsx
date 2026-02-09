@@ -82,7 +82,7 @@ function Adminpage() {
         navigate("/login")
       }
      
-
+//"http://localhost:4000/api/getalldmessage",
       try {
         const response = await axios.get("http://localhost:4000/api/getalldmessage", {
           headers: { Authorization: `Bearer ${token}` },

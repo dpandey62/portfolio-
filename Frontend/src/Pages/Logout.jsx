@@ -9,6 +9,7 @@ const Logout = () => {
     try {
      
       await axios.post("http://localhost:4000/api/admin/logout");
+      //await axios.post("https://portfolio-1-ckp8.onrender.com"); 
 
      
       localStorage.removeItem("token");

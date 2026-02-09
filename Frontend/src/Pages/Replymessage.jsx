@@ -12,6 +12,7 @@ function Replymessage() {
             const token = localStorage.getItem("token");
             try {
                 const response = await axios.get(`http://localhost:4000/api/singledata/${id}`, {
+                   // const response = await axios.get(`https://portfolio-1-ckp8.onrender.com/${id}`, {
                     headers: { Authorization: `Bearer ${token}` },
                 });
                 setsingledata(response.data);
@@ -27,6 +28,7 @@ function Replymessage() {
         event.preventDefault();
         try {
             const response = await axios.post("http://localhost:4000/api/adminmsg/adminmessage", {
+                //const response = await axios.post("https://portfolio-1-ckp8.onrender.com", {
                 
                 Email: singledata.Email,
                 adminmessage: adminmessage,

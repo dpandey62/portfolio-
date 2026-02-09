@@ -1,6 +1,6 @@
 
 function About() {
-   
+
 
     return (
         <>
@@ -27,14 +27,16 @@ function About() {
                         let's turn your ideas into reality!
                     </p>
 
-                    <button 
-                       
-                        className="bg-blue-500 text-white px-6 py-3 rounded-full text-lg transition duration-300 hover:bg-blue-600"
-                    >
-                        <a href="/Dev Pandey(JIET22AIML089).pdf" download="Dev Pandey(JIET22AIML089).pdf" className="bg-blue-500 text-white p-2 rounded">
-      Download  Resume
-    </a>
+                    <button className="relative inline-flex items-center justify-center px-7 py-3 overflow-hidden font-semibold text-white bg-gradient-to-r from-blue-500 to-indigo-600 rounded-full shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl">
+                        <a
+                            href="/Dev_PandeyME (1).pdf"
+                            download="Dev_PandeyME (1).pdf"
+                            className="flex items-center gap-2 text-white no-underline"
+                        >
+                            📄 Download Resume
+                        </a>
                     </button>
+
                 </div>
             </div>
         </>

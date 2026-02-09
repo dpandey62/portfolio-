@@ -18,11 +18,17 @@ function Project() {
     {
       imageUrl: "/311333118-103858c4-b426-4a8b-8225-e84c1c09b8d0.png", // Use an actual image for this project
       title: "Ecommerce Website",
-      description:  "A full-featured eCommerce platform that enables users to browse products, add items to a cart, and complete secure checkouts. Includes features like product search, category filtering, responsive design, user authentication, and admin dashboard for managing inventory and orders.",
+      description: "A full-featured eCommerce platform that enables users to browse products, add items to a cart, and complete secure checkouts. Includes features like product search, category filtering, responsive design, user authentication, and admin dashboard for managing inventory and orders.",
       projectlink: "https://dpandey62.github.io/Ecommerce-website/",
     },
+    {
+      imageUrl: "/Screenshot 2026-02-09 221644.png", // Use an actual image for this project
+      title: "MINI-app-courtReserve",
+      description: "Build-MINI-app-courtReserve is a full-stack sports court booking application that allows users to check availability and book courts in real time. It features a responsive React-based frontend, a Node.js/Express backend, and REST APIs for managing users and bookings.",
+      projectlink: "https://build-mini-app-court-reserve.vercel.app/",
+    },
   ];
-  
+
 
   return (
     <div className="bg-black px-4">

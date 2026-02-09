@@ -11,7 +11,8 @@ const AdminRegister= () => {
   const registerUser = async (email, password) => {
     try {
       // Make API call for registration
-      const response = await axios.post("http://localhost:4000/api/admin/adminregister", {
+     const response = await axios.post("http://localhost:4000/api/admin/adminregister", {
+      //const response = await axios.post("https://portfolio-1-ckp8.onrender.com", {
         email,
         password,
       });
